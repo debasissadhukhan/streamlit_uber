@@ -16,7 +16,7 @@ def load_data(nrows):
     data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
     return data
 
-st.subheader('addd subheader')
+
 
 data_load_state = st.text('Loading data...')
 # Load 10,000 rows of data into the dataframe.
