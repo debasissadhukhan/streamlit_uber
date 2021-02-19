@@ -26,5 +26,5 @@ data = load_data(10000)
 data_load_state.text("Done! (using st.cache)")
 st.subheader('Raw data')
 st.write(data)
-st.subheader('addd subheader')
+st.subheader('addd subheader1')
 
